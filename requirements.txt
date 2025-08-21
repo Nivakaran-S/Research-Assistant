@@ -8,3 +8,4 @@ uvicorn
 watchdog
 langgraph-cli[inmem]
 streamlit
+tavily-python

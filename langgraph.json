@@ -1,0 +1,7 @@
+{
+    "dependencies": ["."],
+    "graphs": {
+        "scope_research": "./src/graphs/scopeGraph.py:scope_research"
+    },
+    "env": "./env"
+}
