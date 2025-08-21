@@ -15,7 +15,7 @@ from src.states.researchState import Summary
 
 def get_today_str() -> str:
     """Get current data in a human-readable format."""
-    return datetime.now().strftime("%a %b %-d, %Y")
+    return datetime.now().strftime("%a %b %d, %Y")
 
 def get_current_dir() -> Path: 
     """

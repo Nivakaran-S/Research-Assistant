@@ -25,7 +25,7 @@ class AgentState(MessagesState):
     notes: Annotated[list[str], operator.add] = []
     final_report: str 
 
-# Output Schema 
+# Output Schema for the agent state
 class ClarifyWithUser(BaseModel):
     """Schema for user clarification decision and questions."""
 
